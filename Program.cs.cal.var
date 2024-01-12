@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace calculadora.var
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("")
+            int idadeKat = 15;
+            int idadeDavi = 30;
+            int idadeCarlos = 43;
+
+            double mediaIdades = (idadeKat + idadeDavi + idadeCarlos) / 3.0;
+            Console.WriteLine("A média das idades é: " + mediaIdades);
+            Console.ReadLine(); 
+            
+         }
+        
+
+    }
+}
+
