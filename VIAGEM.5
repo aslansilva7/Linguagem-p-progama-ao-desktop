@@ -1,0 +1,47 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace exercicio._5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+       
+
+        {
+            
+            {
+                Console.WriteLine("Calculadora de Consumo de Combustível");
+
+                
+                Console.Write("Digite o tempo gasto na viagem (em horas): ");
+                double tempoGasto = Convert.ToDouble(Console.ReadLine());
+
+                
+                Console.Write("Digite a velocidade média durante a viagem (em km/h): ");
+                double velocidadeMedia = Convert.ToDouble(Console.ReadLine());
+
+               
+                double distanciaPercorrida = tempoGasto * velocidadeMedia;
+
+                
+                double litrosUsados = distanciaPercorrida / 12.0;
+
+                
+                Console.WriteLine("\nResultados da Viagem:");
+                Console.WriteLine($"Velocidade Média: {velocidadeMedia} km/h");
+                Console.WriteLine($"Tempo Gasto: {tempoGasto} horas");
+                Console.WriteLine($"Distância Percorrida: {distanciaPercorrida} km");
+                Console.WriteLine($"Quantidade de Litros Usada: {litrosUsados:F2} litros");
+
+                Console.ReadLine(); 
+            }
+        }
+
+    }
+}
+}
